@@ -1,0 +1,32 @@
+  .list-container {
+    height: 95vh;
+    width: 31.5vw;
+
+    .log-list {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .query-container {
+    height: 95vh;
+    width: 61.5vw;
+
+    .query-form {
+      width: 100%;
+      height: 35%;
+      margin-bottom: 20px;
+    }
+
+    .query-sub-container {
+      height: 12%;
+      width: 100%;
+      display: flex;
+      gap: 2%;
+
+      mat-card {
+        height: 100%;
+        width: 49%;
+      }
+    }
+  }
